@@ -1,1 +1,66 @@
-
+@media (min-width: 1100px)and (max-width: 1200px) {
+    li {
+        display:inline;
+    }
+    .one{display:block; background:red;}
+    .two{display:none;}
+    .three{display:none;}
+    .four{display:none;}
+    .five{display:none;}
+    .six{display:none;}
+}
+@media (min-width: 1000px)and (max-width: 1100px) {
+    li {
+        display:inline;
+    }
+    .one{display:block; background:blue;}
+    .two{display:block; background:blue;}
+    .three{display:none;}
+    .four{display:none;}
+    .five{display:none;}
+    .six{display:none;}
+}
+@media (min-width: 900px)and (max-width: 1000px) {
+    li {
+        display:inline;
+    }
+    .one{display:block; background:green;}
+    .two{display:block; background:green;}
+    .three{display:block; background:green;}
+    .four{display:none;}
+    .five{display:none;}
+    .six{display:none;}
+}
+@media (min-width: 800px)and (max-width: 900px) {
+    li {
+        display:inline;
+    }
+    .one{display:block; background:purple;}
+    .two{display:block; background:purple;}
+    .three{display:block; background:purple;}
+    .four{display:block; background:purple;}
+    .five{display:none;}
+    .six{display:none;}
+}
+@media (min-width: 700px)and (max-width: 800px) {
+    li {
+        display:inline;
+    }
+    .one{display:block; background:orange;}
+    .two{display:block; background:orange;}
+    .three{display:block; background:orange;}
+    .four{display:block; background:orange;}
+    .five{display:block; background:orange;}
+    .six{display:none;}
+}
+@media (min-width: 320px)and (max-width: 700px) {
+    li {
+        display:inline;
+    }
+    .one{display:block; background:yellow;}
+    .two{display:block; background:yellow;}
+    .three{display:block; background:yellow;}
+    .four{display:block; background:yellow;}
+    .five{display:block; background:yellow;}
+    .six{display:block; background:yellow;}
+}
